@@ -4,18 +4,18 @@
        Python 2.7
        
 ### Introduction
-* The Extreme TicTacToe is an extension of 3x3 Ultimate TicTacToe which in turn is an extension of
-  standard 3x3 TicTacToe. Extreme TicTacToe comprises of 2 boards of 3x3 board in which each cell
-  further is a 3x3 board.
+       * The Extreme TicTacToe is an extension of 3x3 Ultimate TicTacToe which in turn is an extension of
+         standard 3x3 TicTacToe. Extreme TicTacToe comprises of 2 boards of 3x3 board in which each cell
+         further is a 3x3 board.
 
-  ![alt text](./images/board_image.png)
+         ![alt text](./images/board.png)
   
- * The board structure is as shown above. We will refer to the whole board as BigBoardand each small board
-    as SmallBoard from now on.Hence, each cell of BigBoard is aSmallBoard and SmallBoard itself has 9 cells.
-    
-  *As we have 2 boards we will call BigBoard1 and BigBoard2 respectively. And theirsmall boards will be called
-    SmallBoard1 and SmallBoard2 respectively
-  
+       * The board structure is as shown above. We will refer to the whole board as BigBoardand each small board
+           as SmallBoard from now on.Hence, each cell of BigBoard is aSmallBoard and SmallBoard itself has 9 cells.
+
+       * As we have 2 boards we will call BigBoard1 and BigBoard2 respectively. And theirsmall boards will be called
+           SmallBoard1 and SmallBoard2 respectively
+
   
   ## Rules
   * **FIRST MOVE**:The first player takes the first move and it is a free move. The player is free to move anywhere i.e.
@@ -48,15 +48,15 @@
         then the match will beforfeited and the opponent wins the whole match by default
         
     ### Scoring
-        *Winning a game, by forming a pattern as described in WIN RULE will give you 86 pointsand the opponent0 points.
-        *If the player makes an invalid move, or exceeds time limit, or makes an illegal changeon the board, or uses 
+        * Winning a game, by forming a pattern as described in WIN RULE will give you 86 pointsand the opponent0 points.
+        * If the player makes an invalid move, or exceeds time limit, or makes an illegal changeon the board, or uses 
          threading or makes any system call, then the opponent earns86 pointsand the player earns 0 points.
-        *If no player has a pattern at the end of the game, both the players get points accordingto the SmallBoards they 
+        * If no player has a pattern at the end of the game, both the players get points accordingto the SmallBoards they 
           have won respectively.Each small board has differentscoresas mentioned in section below.
           Smallboards which are drawn do not count aspoints for either player.
    ### Scoring of Small Boards
          *Corners: 4 points
-         *Center: 3 points•
+         *Center:  3 points•
          *Remaining SmallBoards: 6 points
    
  
