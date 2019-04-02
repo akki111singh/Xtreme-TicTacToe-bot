@@ -20,22 +20,17 @@
   ## Rules
    * **FIRST MOVE**:The first player takes the first move and it is a free move. The player is free to move anywhere i.e.
                in any cell of any SmallBoard1 or SmallBoard2.
-         * **CORRESPONDENCE RULE**: When a player places his marker in any of the cell, the next player can only place marker in 
-               a SmallBoard1 or SmallBoard2 corresponding to that cell. For Example: If a player places his marker in Top RightCorner
-               cell of a SmallBoard1 then the next player can only place his marker in available cells of the Top Right Corner SmallBoard1
-               or Top Right Corner SmallBoard2.
-         * **ABANDON RULE**:Once a SmallBoard is won by some player, that SmallBoard isabandoned and it has to be considered full, 
-               i.e. no more markers can be placed in thatSmallBoard.
-         * **OPEN MOVE**:In case all the cells of both the destined SmallBoards from “Cor-respondence Rule” are occupied or if both
-               the destined SmallBoards are abandonedaccording to “Abandon Rule”, then the move is considered to be an open move, 
-               i.e.the player can move anywhere, on any available cell of any of the SmallBoards, giventhat SmallBoard is not abandoned.
-         * **BONUS MOVE**:If a player places his marker in a cell of a SmallBoard and thisleads to the player winning that SmallBoard,
-               then the he/she gets a bonus move, i.e.,he/she gets to move again. This bonus move is limited to 2 SmallBoard wins, 
-               i.e., Ifyou win another SmallBoard by placing the marker again in your bonus move, youdon’t get another bonus move.
-         *  **WIN RULE**:The player who places their markers on 3 cells of a SmallBoard suchthat they form a vertical or horizontal line or 
-               3 cells such that they form a diagonalwins that SmallBoard. Similarly, player who wins 3 SmallBoards such that theyform a vertical
-               or horizontal line or win 3 SmallBoards such that they form a diagonalwins the whole game. The first player to make the winning pattern 
-               on any one ofthe BigBoards wins the game.
+               
+   * **CORRESPONDENCE RULE**: When a player places his marker in any of the cell, the next player can only place marker in 
+               a SmallBoard1 or SmallBoard2 corresponding to that cell. For Example: If a player places his marker in Top     RightCorner cell of a SmallBoard1 then the next player can only place his marker in available cells of the Top Right Corner SmallBoard1 or Top Right Corner SmallBoard2.
+               
+   * **ABANDON RULE**:Once a SmallBoard is won by some player, that SmallBoard isabandoned and it has to be considered full, i.e. no more markers can be placed in thatSmallBoard.
+               
+   * **OPEN MOVE**:In case all the cells of both the destined SmallBoards from “Cor-respondence Rule” are occupied or if both the destined SmallBoards are abandonedaccording to “Abandon Rule”, then the move is considered to be an open move, i.e.the player can move anywhere, on any available cell of any of the SmallBoards, giventhat SmallBoard is not abandoned.
+   
+   * **BONUS MOVE**:If a player places his marker in a cell of a SmallBoard and thisleads to the player winning that          SmallBoard, then the he/she gets a bonus move, i.e.,he/she gets to move again. This bonus move is limited to 2 SmallBoard wins, i.e., Ifyou win another SmallBoard by placing the marker again in your bonus move, youdon’t get another bonus move.
+   
+   *  **WIN RULE**:The player who places their markers on 3 cells of a SmallBoard suchthat they form a vertical or horizontal line or 3 cells such that they form a diagonalwins that SmallBoard. Similarly, player who wins 3 SmallBoards such that theyform a vertical or horizontal line or win 3 SmallBoards such that they form a diagonalwins the whole game. The first player to make the winning pattern on any one ofthe BigBoards wins the game.
         
    
    ![alt text](./images/winning_combs.png)
