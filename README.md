@@ -53,6 +53,9 @@
          *Corners: 4 points
          *Center:  3 points•
          *Remaining SmallBoards: 6 points
+         
+         
+  ###### Please report any issue
    
  
    
