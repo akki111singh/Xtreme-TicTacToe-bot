@@ -18,7 +18,7 @@
 
   
   ## Rules
-         * **FIRST MOVE**:The first player takes the first move and it is a free move. The player is free to move anywhere i.e.
+   * **FIRST MOVE**:The first player takes the first move and it is a free move. The player is free to move anywhere i.e.
                in any cell of any SmallBoard1 or SmallBoard2.
          * **CORRESPONDENCE RULE**: When a player places his marker in any of the cell, the next player can only place marker in 
                a SmallBoard1 or SmallBoard2 corresponding to that cell. For Example: If a player places his marker in Top RightCorner
@@ -37,7 +37,7 @@
                or horizontal line or win 3 SmallBoards such that they form a diagonalwins the whole game. The first player to make the winning pattern 
                on any one ofthe BigBoards wins the game.
         
-   ##Winning Combinations
+   
    ![alt text](./images/winning_combs.png)
    
    ### How to run
@@ -47,7 +47,7 @@
         You need to return a valid move from your move function within 24 seconds. Ifthe time limit exceeds 24 seconds for a particular move,
         then the match will beforfeited and the opponent wins the whole match by default
         
-    ### Scoring
+   ### Scoring
         * Winning a game, by forming a pattern as described in WIN RULE will give you 86 pointsand the opponent0 points.
         * If the player makes an invalid move, or exceeds time limit, or makes an illegal changeon the board, or uses 
          threading or makes any system call, then the opponent earns86 pointsand the player earns 0 points.
