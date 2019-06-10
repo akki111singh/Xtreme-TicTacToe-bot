@@ -1,4 +1,5 @@
 # Xtreme-TicTacToe
+This is my Team project with @Faizan-Khan
 
 ### Prerequisites
        Python 2.7
