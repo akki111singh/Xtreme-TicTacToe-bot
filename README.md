@@ -1,7 +1,6 @@
 # Xtreme-TicTacToe
 ### Prerequisites
        Python 2.7
-+      #DigitalFace Makeup 
         
 ### Introduction
        * The Extreme TicTacToe is an extension of 3x3 Ultimate TicTacToe which in turn is an extension of
